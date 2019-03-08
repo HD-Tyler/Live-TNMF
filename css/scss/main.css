@@ -1,0 +1,125 @@
+.media {
+  display: flex;
+  align-items: flex-start; }
+
+.media-body {
+  flex: 1; }
+
+h1, h2, h3, h3 {
+  text-transform: uppercase;
+  color: #444; }
+
+h2 {
+  font-weight: 100; }
+
+header.site-header {
+  position: relative;
+  height: 600px;
+  background: url(../images/hero.png) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden; }
+  header.site-header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    opacity: .5; }
+
+.navbar-expand-lg {
+  justify-content: space-between !important; }
+
+.nav-link, .navbar-brand {
+  color: #fff !important; }
+
+.navbar-collapse {
+  flex-grow: 0; }
+
+#header-content {
+  padding: 20px;
+  position: relative;
+  top: 25%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  #header-content h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 5rem;
+    padding: 0;
+    margin: 0; }
+  #header-content h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    overflow: hidden; }
+    #header-content h2 span:after,
+    #header-content h2 span:before {
+      content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+      text-decoration: line-through;
+      color: #E70E0E; }
+
+@media (max-width: 575.98px) {
+  #header-content h1 {
+    font-size: 2.5rem; }
+  #header-content h2 {
+    font-size: 7rem; }
+  .navbar-expand-lg {
+    background: rgba(0, 0, 0, 0.8); } }
+
+.button-holder {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-around; }
+  .button-holder .btn-outline-primary, .button-holder .btn-primary {
+    width: 250px;
+    padding: 10 15px;
+    text-transform: uppercase;
+    color: #E70E0E;
+    background: #fff;
+    border: 0;
+    margin: 10px 15px 0; }
+    .button-holder .btn-outline-primary:hover, .button-holder .btn-primary:hover {
+      background: #E70E0E;
+      color: #fff; }
+  .button-holder .btn-outline-primary {
+    background: transparent;
+    border: solid 2px #fff;
+    color: #fff; }
+    .button-holder .btn-outline-primary:hover {
+      background: #fff;
+      color: #E70E0E; }
+
+.mudflap {
+  background: url(../images/all-mf.png) no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+  min-height: 440px; }
+
+.this-content {
+  width: 70%;
+  padding: 20px;
+  position: relative;
+  margin: 0 auto;
+  align-self: center; }
+
+.grey {
+  padding: 75px 0 30px;
+  background: #F4F4F4;
+  text-align: center; }
+
+.product {
+  justify-content: center; }
+
+.product-box {
+  background: #fff;
+  padding: 20px 10px;
+  width: 250px;
+  min-height: 360px;
+  align-self: center; }
