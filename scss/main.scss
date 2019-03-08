@@ -185,6 +185,10 @@ nav.fixed-top{
     }
 }
 
+.pad-mobile{
+    padding: 0 !important;
+}
+
 .this-content{
     width: 70%;
     padding: 20px;
@@ -332,9 +336,11 @@ footer p{
     #hero-content h2 { font-size: 1rem;}
     .this-content { width: 100%;}
     #features-list{ flex-direction: column;}
+    .pad-mobile{ padding: 0 15px;}
  }
 
  // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
     #hero-content h1{font-size: 3.5rem;}
+    .pad-mobile{ padding: 0 15px;}
 }

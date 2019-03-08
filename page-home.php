@@ -57,7 +57,7 @@ get_header();
     <!-- WHY GO WITH
     ======================================================-->
     <section id="why-go">
-        <div class="container-fluid clearfix">
+        <div class="container-fluid pad-mobile clearfix">
             <div class="row no-gutters">
                 <div class="col-sm-8 align-self-center">
                     <div class="this-content">
@@ -156,17 +156,17 @@ get_header();
                 </div>
             </div>
             <div class="row align-items-center">
-                <div class="col-md-4 d-flex justify-content-around">
+                <div class="col-md-4 d-flex justify-content-around align-self-start">
                     <blockquote class="customer-quotes">
                         <?php echo $testimonials_1; ?>
                     </blockquote>
                 </div>
-                <div class="col-md-4 d-flex justify-content-around">
+                <div class="col-md-4 d-flex justify-content-around align-self-start">
                     <blockquote class="customer-quotes">
                         <?php echo $testimonials_2; ?>
                     </blockquote>
                 </div>
-                <div class="col-md-4 d-flex justify-content-around">
+                <div class="col-md-4 d-flex justify-content-around align-self-start">
                     <blockquote class="customer-quotes">
                         <?php echo $testimonials_3; ?>
                     </blockquote>
